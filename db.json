@@ -2,9 +2,19 @@
   "sites": [
     {
       "key": "maotai",
-      "name": "索尼资源",
+      "name": "量子资源",
       "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
       "active": true
     }
   ]
+},{
+  "sites": [
+    {
+      "key": "maotai",
+      "name": "暴风资源",
+      "api": "https://bfzyapi.com/api.php/provide/vod/from/bfzym3u8/",
+      "active": true
+    }
+  ]
 }
+
