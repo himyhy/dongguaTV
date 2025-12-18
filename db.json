@@ -2,8 +2,8 @@
   "sites": [
     {
       "key": "maotai",
-      "name": "茅台资源",
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/json/",
+      "name": "索尼资源",
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
       "active": true
     }
   ]
