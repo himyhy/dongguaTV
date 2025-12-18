@@ -15,10 +15,15 @@ const PORT = process.env.PORT || 3000;
 const DATA_FILE = path.join(__dirname, 'db.json');
 const TEMPLATE_FILE = path.join(__dirname, 'db.template.json');
 
-// 图片缓存目录
-const IMAGE_CACHE_DIR = path.join(__dirname, 'public/cache/images');
-if (!fs.existsSync(IMAGE_CACHE_DIR)) {
-    fs.mkdirSync(IMAGE_CACHE_DIR, { recursive: true });
+// 仅在非 Vercel 环境下创建缓存目录
+if (!process.env.VERCEL) {
+    if (!fs.existsSync(path.join(__dirname, 'public/cache/images'))) {
+         try {
+             fs.mkdirSync(path.join(__dirname, 'public/cache/images'), { recursive: true });
+         } catch (e) {
+             console.log('Skipping cache directory creation (likely read-only fs)');
+         }
+    }
 }
 
 // 访问密码配置
