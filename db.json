@@ -10,7 +10,7 @@
 },{
   "sites": [
     {
-      "key": "maotai",
+      "key": "maotai1",
       "name": "暴风资源",
       "api": "https://bfzyapi.com/api.php/provide/vod/from/bfzym3u8/",
       "active": true
