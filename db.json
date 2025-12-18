@@ -3,7 +3,7 @@
     {
       "key": "maotai",
       "name": "量子资源",
-      "api": "https://bfzyapi.com/api.php/provide/vod/from/bfzym3u8/",
+      "api": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json或者https://qist.ugigc.dpdns.org/xiaosa/api.json",
       "active": true
     }
   ]
