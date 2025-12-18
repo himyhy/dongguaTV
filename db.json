@@ -3,7 +3,7 @@
     {
       "key": "maotai",
       "name": "索尼资源",
-      "api": "https://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/",
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
       "active": true
     }
   ]
